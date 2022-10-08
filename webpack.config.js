@@ -7,6 +7,7 @@ const ESLintPlugin = require("eslint-webpack-plugin");
 
 module.exports = {
   mode: "development",
+  "target": "es5",
   cache: {
     type: "filesystem",
   },
